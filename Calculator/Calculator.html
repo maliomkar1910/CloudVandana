@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="whole-cal">  
+    <div class="navigation">
+        <h1 class="nav-h1">Calculator</h1>
+    </div>
+
+    <div id="calculator">
+        <input type="text" id="result" readonly>
+        <br>
+        <input type="button" value="1" onclick="Calculate('1')">
+        <input type="button" value="2" onclick="Calculate('2')">
+        <input type="button" value="3" onclick="Calculate('3')">
+        <input type="button" value="+" onclick="Calculate('+')">
+        <br>
+        <input type="button" value="4" onclick="Calculate('4')">
+        <input type="button" value="5" onclick="Calculate('5')">
+        <input type="button" value="6" onclick="Calculate('6')">
+        <input type="button" value="-" onclick="Calculate('-')">
+        <br>
+        <input type="button" value="7" onclick="Calculate('7')">
+        <input type="button" value="8" onclick="Calculate('8')">
+        <input type="button" value="9" onclick="Calculate('9')">
+        <input type="button" value="*" onclick="Calculate('*')">
+        <br>
+        <input type="button" value="C" onclick="clearResult()">
+        <input type="button" value="0" onclick="Calculate('0')">
+        <input type="button" value="/" onclick="Calculate('/')">
+        <input type="button" value="=" onclick="calculateResult()">
+    </div>
+    <script src="script.js"></script>
+</div>
+</body>
+
+</html>

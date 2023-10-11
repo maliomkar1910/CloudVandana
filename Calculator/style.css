@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #calculator {
+            width: 250px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 15%;
+            background-color: #f0f0f0;
+        }
+
+        input[type="text"] {
+            width: 87%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 10%;
+            border: solid black;
+            font-family: 'Young Serif', serif;
+
+        }
+
+        input[type="button"] {
+            width: 48px;
+            height: 48px;
+            font-size: 18px;
+            margin: 5px;
+            border-radius: 50%;
+            border: solid black;
+            color: blue;
+            cursor: pointer;
+            font-family: 'Young Serif', serif;
+        }
+
+        input[type="button"]:hover{
+            background:#369e7d ;
+        }
+
+
+        .navigation{
+            display: inline;
+            text-align: center;
+            margin: 8%;
+            color: rgb(7, 82, 82);
+            font-family: 'Young Serif', serif;
+    
+        }
+        .whole-cal{
+            border: solid black;
+            margin: 10% 35% 10% 35% ;
+        }
+       
+       
+    
